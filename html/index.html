@@ -29,13 +29,36 @@
     <audio autoplay controls>
         <source src="https://audio-samples.github.io/samples/mp3/blizzard_unconditional/sample-0.mp3" type="audio/mpeg">
     </audio>
-    <h3>Formulario</h3>
-    <form action="#" method="post">
-        Usuario: <input type="text" name="usu" required><br>
-        Contraseña: <input type="password" name="pass" required><br><br>
+    <h3>Formulario para submit1</h3>
+    <form action="https://tomcat.fullbyte.store/simpleplato/submit1" method="post">
+        Usuario: <input type="text" name="nombre" required><br>
+        Edad: <input type="number" name="edad" required><br><br>
+        Estado: <input type="checkbox" name="activo" value="activo" checked> Libre/Disponible<br>
         <input type="submit" value="Registrar Usuario">
     </form>
     <!--Emmet (etiquetas, Id, clases)-->
     <!--Manejo de Git / GitHub subir su proyecto como repositorio público-->
+    <h3>Formulario de Registro de usuario de programacion</h3>
+    <form action="https://tomcat.fullbyte.store/simpleplato/submit2" method="post">
+        <input type="text" name="nombre" placeholder="Escriba su texto" required><br>
+        <input type="password" name="password" placeholder="Ingrese contraseña" required><br>
+        Genero:<br>
+        <input type="radio" name="genero" value="masculin" checked> Masculino <br>
+        <input type="radio" name="genero" value="femenin"> Femenino <br>
+        <input type="radio" name="genero" value="ot"> Otro <br>
+        País:<br>
+        <select name="pais" required>
+            <option value="ar"> Argentina </option>
+            <option value="bo"> Bolivia </option>
+            <option value="cl"> Chile </option>
+            <option value="co"> Comombia </option></select><br>
+        <br>Lenguajes que domina:<br>
+        <input type="checkbox" name="intereses" value="java" checked> JAVA <br>
+        <input type="checkbox" name="intereses" value="php"> PHP <br>
+        <input type="checkbox" name="intereses" value="pyton"> PYTON <br>
+        <input type="checkbox" name="intereses" value="ruby"> RUBY <br>
+            Breve descripción del usuario:<br> <textarea name="descripcion" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
