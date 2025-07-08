@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../sass/estilo.scss",
+		"../sass/parcial1.scss",
+		"../sass/parcial2.scss",
+		"../sass/parcial3.scss"
+	],
+	"sourcesContent": [
+		"@import \"parcial1\";\r\n@import \"parcial2\";\r\n/*\r\nESte es un comentarioi en SASS\r\n*/\r\n\r\n/* Definición de variables */\r\n$ColorDeFondo: #eedaa3;\r\n$ColorDeTeto: darkblue;\r\n$TamanioDeFuente: 18px;\r\n$MiFuente: 'Arial', san-serif;\r\n$MiAncho: 630px;\r\n$ColorSuave: rgb(171, 220, 249);\r\n\r\n/* Usando las variables */\r\nbody{\r\n    background-color: $ColorDeFondo;\r\n    color: $ColorDeTeto;\r\n    font-size: $TamanioDeFuente;\r\n\r\n}\r\n\r\n#container{\r\n    width: $MiAncho;\r\n    font-family: $MiFuente;\r\n    background-color: $ColorSuave;\r\n}\r\n\r\nh1{\r\n    $ColorSuave: pink !global;\r\n    background-color: $ColorSuave;\r\n}\r\n\r\na{\r\n    color: $ColorSuave;\r\n}\r\n\r\n/* Aidamiento en Sass*/\r\n\r\nnav{\r\n    ul{\r\n        margin: 0;\r\n        padding: 0;\r\n        list-style: none;\r\n    }\r\n    li{\r\n        display: inline-block;\r\n    }\r\n    a{\r\n        display: block;\r\n        padding: 6px 12px;\r\n        text-decoration: none;\r\n        font: {\r\n            family: Helvetica, san-serif;\r\n            size: 20px;\r\n            weight: bold;\r\n        }\r\n        text: {\r\n            align: center;\r\n            transform: uppercase;\r\n            overflow: hidden;\r\n        }\r\n    }\r\n}\r\n",
+		"ol, ul, html{\r\n    margin: 5;\r\n    padding: 5;\r\n}",
+		"@import \"parcial3\";\r\n$ColorDeFondo:aqua;\r\n.control{\r\n    background-color: $ColorDeFondo;\r\n    color: black;\r\n}\r\n.secundario{\r\n    background-color: #f2c5f5;\r\n    color: black;\r\n}\r\n #control3{\r\n    @include nombre-cualquiera;\r\n }",
+		"/* Uso de directiva mixin */\r\n@mixin nombre-cualquiera{\r\n    color: red;\r\n    font-size: 20px;\r\n    font-weight: bold;\r\n    border: 1px solid blue;\r\n}\r\n\r\n/* Para usar @mixin, se usa la directiva @include */\r\n\r\n.control{\r\n    @include nombre-cualquiera;\r\n    background-color: aqua;\r\n}"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,EAAE,EAAE,EAAE,EAAE,IAAI,CAAA;EACR,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AEHD,4BAA4B;AAQ5B,oDAAoD;;AAEpD,AAAA,QAAQ,CAAA;EARJ,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;EAOtB,gBAAgB,EAAE,IAAI;CACzB;;;ADXD,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAFN,IAAI;EAGd,KAAK,EAAE,KAAK;CACf;;;AACD,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;CACf;;;AACA,AAAA,SAAS,CAAA;ECRN,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,cAAc;CDOxB;;AFVF;;EAEE;AAEF,6BAA6B;AAQ7B,0BAA0B;;AAC1B,AAAA,IAAI,CAAA;EACA,gBAAgB,EATL,OAAO;EAUlB,KAAK,EATK,QAAQ;EAUlB,SAAS,EATK,IAAI;CAWrB;;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAZC,KAAK;EAaX,WAAW,EAdJ,OAAO,EAAE,SAAS;EAezB,gBAAgB,EAbP,OAAkB;CAc9B;;;AAED,AAAA,EAAE,CAAA;EAEE,gBAAgB,EADH,IAAI;CAEpB;;;AAED,AAAA,CAAC,CAAA;EACG,KAAK,EALQ,IAAI;CAMpB;;AAED,uBAAuB;;AAEvB,AACI,GADD,CACC,EAAE,CAAA;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;CACnB;;;AALL,AAMI,GAND,CAMC,EAAE,CAAA;EACE,OAAO,EAAE,YAAY;CACxB;;;AARL,AASI,GATD,CASC,CAAC,CAAA;EACG,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,QAAQ;EACjB,eAAe,EAAE,IAAI;EAEjB,WAAM,EAAE,oBAAoB;EAC5B,SAAI,EAAE,IAAI;EACV,WAAM,EAAE,IAAI;EAGZ,UAAK,EAAE,MAAM;EACb,cAAS,EAAE,SAAS;EACpB,aAAQ,EAAE,MAAM;CAEvB"
+}

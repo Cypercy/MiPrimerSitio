@@ -1,0 +1,64 @@
+@import "parcial1";
+@import "parcial2";
+/*
+ESte es un comentarioi en SASS
+*/
+
+/* Definición de variables */
+$ColorDeFondo: #eedaa3;
+$ColorDeTeto: darkblue;
+$TamanioDeFuente: 18px;
+$MiFuente: 'Arial', san-serif;
+$MiAncho: 630px;
+$ColorSuave: rgb(171, 220, 249);
+
+/* Usando las variables */
+body{
+    background-color: $ColorDeFondo;
+    color: $ColorDeTeto;
+    font-size: $TamanioDeFuente;
+
+}
+
+#container{
+    width: $MiAncho;
+    font-family: $MiFuente;
+    background-color: $ColorSuave;
+}
+
+h1{
+    $ColorSuave: pink !global;
+    background-color: $ColorSuave;
+}
+
+a{
+    color: $ColorSuave;
+}
+
+/* Aidamiento en Sass*/
+
+nav{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    a{
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+        font: {
+            family: Helvetica, san-serif;
+            size: 20px;
+            weight: bold;
+        }
+        text: {
+            align: center;
+            transform: uppercase;
+            overflow: hidden;
+        }
+    }
+}

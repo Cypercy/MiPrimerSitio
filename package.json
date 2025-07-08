@@ -1,0 +1,19 @@
+{
+  "name": "practicas001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cypercy/MiPrimerSitio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cypercy/MiPrimerSitio/issues"
+  },
+  "homepage": "https://github.com/Cypercy/MiPrimerSitio#readme",
+  "description": ""
+}

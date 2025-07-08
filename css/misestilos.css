@@ -1,0 +1,52 @@
+h2 +p{
+    background-color: bisque;
+}
+div > p{
+    font-size: 50px;
+
+}
+.estilo1{
+    color: brown;
+    background-color: yellow;
+    box-shadow: -3px -4px 5px black;
+}
+.estilo2{
+    text-shadow: 5px 3px 2px black;
+}
+body{
+    background: #ffed45 url("https://culturacientifica.com/app/uploads/2016/12/peces-en-el-rio-640x640.jpg") repeat-x fixed 0% 0%;
+}
+img{
+    box-shadow: -3px -4px 5px black;
+    salig
+}
+.centrado{
+    filter: drop-shadow (3px 4px 5px) black;
+}
+
+.pez-filter{
+    filter: drop-shadow (3px 4px 5px) black;
+}
+#btnBorrar{
+    
+    color: rgb(185, 203, 237);
+    font-size: 12px;
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, orange, blue);
+}
+#btnGol{
+    
+    color: rgb(185, 203, 237);
+    font-size: 12px;
+    fon
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-weight: shadow;
+    border-radius: 90px;
+    background-image: linear-gradient(to right, orange, blue);
+    box-shadow: -3px -4px 5px black;
+}

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* line 1, E:/Diseño Web/prácticas 001/sass/parcial1.scss */
+ol, ul, html {
+  margin: 5;
+  padding: 5;
+}
+
+/* Uso de directiva mixin */
+/* Para usar @mixin, se usa la directiva @include */
+/* line 11, E:/Diseño Web/prácticas 001/sass/parcial3.scss */
+.control {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: aqua;
+}
+
+/* line 3, E:/Diseño Web/prácticas 001/sass/parcial2.scss */
+.control {
+  background-color: aqua;
+  color: black;
+}
+
+/* line 7, E:/Diseño Web/prácticas 001/sass/parcial2.scss */
+.secundario {
+  background-color: #f2c5f5;
+  color: black;
+}
+
+/* line 11, E:/Diseño Web/prácticas 001/sass/parcial2.scss */
+#control3 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+/*
+ESte es un comentarioi en SASS
+*/
+/* Definición de variables */
+/* Usando las variables */
+/* line 16, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+body {
+  background-color: #eedaa3;
+  color: darkblue;
+  font-size: 18px;
+}
+
+/* line 23, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+#container {
+  width: 630px;
+  font-family: "Arial", san-serif;
+  background-color: #abdcf9;
+}
+
+/* line 29, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+h1 {
+  background-color: pink;
+}
+
+/* line 34, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+a {
+  color: pink;
+}
+
+/* Aidamiento en Sass*/
+/* line 41, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 46, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 49, E:/Diseño Web/prácticas 001/sass/estilo.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: Helvetica, san-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: hidden;
+}
+
+/*# sourceMappingURL=estilo.css.map */
